@@ -1,0 +1,54 @@
+
+h1{text-align: center; color: black; font-family: blackchancery; font-size: 40px}
+h2,h3{color: black; font-family: calibro; font-size: 30px; padding-left: 80px; padding-right: 60px}
+td,th{color: black; font-family: calibro;}
+p {color: orangered; font-family: calibro; padding-left: 80px; padding-right: 65px; font-size: 20}
+#id1,#id2,#id3,#id4 {color: black;}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.center2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  padding-left: 25px;
+  background-image: url("bg2.jpg") ;
+  background-size: cover;
+  background-position: center;
+  
+}
+.fade-in-image {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
