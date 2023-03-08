@@ -1,6 +1,7 @@
 
 h1{text-align: center; color: black; font-family: blackchancery; font-size: 40px}
-h2,h3{color: black; font-family: calibro; font-size: 30px; padding-left: 80px; padding-right: 60px}
+h2{color: black; font-family: calibro; font-size: 30px; padding-left: 80px; padding-right: 60px}
+h3{color: black; font-family: calibro; font-size: 20px; padding-left: 80px; padding-right: 60px}
 td,th{color: black; font-family: calibro;}
 p {color: orangered; font-family: calibro; padding-left: 80px; padding-right: 65px; font-size: 20}
 #id1,#id2,#id3,#id4 {color: black;}
